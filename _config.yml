@@ -1,9 +1,8 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
+# This config file is meant to be read by Jekyll, but also by the Clean Blog theme.
+# It contains some non-standard Jekyll configuration to help with SEO, while maintaining
+# Jekyll compatibility.
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
@@ -21,18 +20,51 @@
 title: Talking tech with Mark
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Exploring the latest developments in artificial intelligence, big tech, and emerging technologies. 
+  Deep dives into AI breakthroughs, tech industry analysis, and future trends.
 baseurl: "/myblog/" # the subpath of your site, e.g. /blog
 url: "https://markekvall.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  markekvall
 
 # Build settings
-theme: minima
+theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
+
+# Clean Blog theme configuration
+clean_blog:
+  # Meta
+  meta:
+    title: "AI & Tech Insights - Mark Ekvall's Blog"
+    description: "Exploring AI, big tech, and emerging technologies"
+    keywords: "AI, artificial intelligence, big tech, technology, machine learning, emerging tech"
+  
+  # Header
+  header:
+    title: "AI & Tech Insights"
+    subtitle: "Exploring the future of technology"
+    background: "img/home-bg.jpg"
+  
+  # Footer
+  footer:
+    description: "Mark Ekvall's thoughts on AI, big tech, and emerging technologies"
+    social:
+      - name: "GitHub"
+        url: "https://github.com/markekvall"
+        icon: "fab fa-github"
+      - name: "Twitter"
+        url: "https://twitter.com/jekyllrb"
+        icon: "fab fa-twitter"
+  
+  # Navigation
+  navigation:
+    - name: "Home"
+      url: "/"
+    - name: "About"
+      url: "/about/"
+    - name: "Posts"
+      url: "/posts/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

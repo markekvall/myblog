@@ -1,6 +1,6 @@
 # Welcome to Jekyll!
 #
-# This config file is meant to be read by Jekyll, but also by the Clean Blog theme.
+# This config file is meant to be read by Jekyll, but also by the Cayman theme.
 # It contains some non-standard Jekyll configuration to help with SEO, while maintaining
 # Jekyll compatibility.
 #
@@ -28,43 +28,14 @@ twitter_username: jekyllrb
 github_username:  markekvall
 
 # Build settings
-theme: jekyll-theme-clean-blog
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
-# Clean Blog theme configuration
-clean_blog:
-  # Meta
-  meta:
-    title: "AI & Tech Insights - Mark Ekvall's Blog"
-    description: "Exploring AI, big tech, and emerging technologies"
-    keywords: "AI, artificial intelligence, big tech, technology, machine learning, emerging tech"
-  
-  # Header
-  header:
-    title: "AI & Tech Insights"
-    subtitle: "Exploring the future of technology"
-    background: "img/home-bg.jpg"
-  
-  # Footer
-  footer:
-    description: "Mark Ekvall's thoughts on AI, big tech, and emerging technologies"
-    social:
-      - name: "GitHub"
-        url: "https://github.com/markekvall"
-        icon: "fab fa-github"
-      - name: "Twitter"
-        url: "https://twitter.com/jekyllrb"
-        icon: "fab fa-twitter"
-  
-  # Navigation
-  navigation:
-    - name: "Home"
-      url: "/"
-    - name: "About"
-      url: "/about/"
-    - name: "Posts"
-      url: "/posts/"
+# Cayman theme configuration
+show_downloads: false
+google_analytics: # Add your Google Analytics tracking ID here if you have one
+# google_analytics: UA-XXXXXXXXX-X
 
 # Exclude from processing.
 # The following items will not be processed, by default.

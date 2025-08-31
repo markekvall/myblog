@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
@@ -33,7 +33,7 @@ When I'm not writing about tech, I'm:
 
 ## About This Blog
 
-This blog is built with [Jekyll](https://jekyllrb.com/) and uses the [Clean Blog](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll) theme, which provides a clean, modern layout perfect for sharing tech insights and analysis.
+This blog is built with [Jekyll](https://jekyllrb.com/) and uses the [Minimal](https://github.com/orderedlist/minimal) theme, which provides a clean, minimal layout perfect for sharing tech insights and analysis.
 
 ---
 

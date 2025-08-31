@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: "AI & Tech Insights"
 subtitle: "Exploring the future of technology"
 ---
@@ -29,4 +29,4 @@ Check out my latest thoughts on:
 
 ---
 
-*This blog is built with Jekyll and the Clean Blog theme, perfect for sharing tech insights and analysis.*
+*This blog is built with Jekyll and the Minimal theme, perfect for sharing tech insights and analysis.*
